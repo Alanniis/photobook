@@ -1,0 +1,78 @@
+#acerca img{
+    max-width: 65%;
+    max-height: 65%;
+    border-radius: 50%;
+}
+#acerca{
+    /*background-color: #151629;*/
+    color: black;
+}
+.texto-alineado{
+    display:flex;
+    justify-content: center;
+    align-items: center
+}
+
+#footer{
+    background: linear-gradient(90deg, #04141b, #111e25 25%, #0b151a);
+
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#footer p{
+    color: white;
+}
+#footer h5,h6{
+    color: white;
+}
+
+#main .carousel-inner img{
+   max-width: 100%;
+    max-height: 75vh;
+    object-fit: cover;
+    filter: grayscale(60%);
+
+}
+
+#carousel{
+
+    position: relative;
+}
+
+/* PERMITE EXPANDIR TODO EL TEXTO EN LAS IMÁGENES DEL CARRUSEL*/
+#carousel .overlay{
+
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; /* TEXTO*/
+    z-index: 1;
+}
+
+#carousel .overlay .coutainer,
+#carousel .overlay .row
+{
+    height: 100%;
+
+}
+
+#testimonios img{
+    max-width: 60%;
+    max-height: 70%;
+}
+
+#contacto img{
+    max-width: 100%;
+    max-height: 70vh;
+ }
+ 
+ #contacto {
+     background-color: #343a40;
+     color: white;
+ }

@@ -76,3 +76,8 @@
      background-color: #343a40;
      color: white;
  }
+ #logo img{
+  width: 150px;
+  border-radius: 5%;
+  
+ }

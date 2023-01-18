@@ -5,7 +5,22 @@
     src: url(Amsterdam\ Four_ttf\ 400.ttf);
 }
 
+@font-face{
+    font-family: text-session;
+    src: url(amsterdam-four.ttf);
+    
+}
 
+@font-face{
+    font-family: text-nav;
+    src: url(Barcialle\ 400.ttf);
+    
+}
+
+@font-face{
+    font-family: main-galery;
+    src: url(romic-light-1.otf);
+}
 /*INDEX*/
 
 #acerca img{
@@ -99,4 +114,73 @@
     font-size: 8px;
 }
 
- 
+  /*SECCIONES*/
+
+  .card {
+        
+    overflow: hidden;
+    object-fit: cover;
+} 
+
+#cont-img img{
+    -webkit-transition:all 4s ease; /* Safari y Chrome */
+    -moz-transition:all 4s ease; /* Firefox */
+    -o-transition:all 4s ease; /* IE 9 */
+    -ms-transition:all 4s ease; /* Opera */
+    width:100%;
+    }
+    
+    @media (hover: hover) {
+    #cont-img:hover img {
+        -webkit-transform:scale(1.25);
+        -moz-transform:scale(1.25);
+        -ms-transform:scale(1.25);
+        -o-transform:scale(1.25);
+        transform:scale(1.25);
+
+        
+        }
+    
+    }
+
+
+
+#cont-img .overlay-sec{
+
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white; /* TEXTO*/
+    z-index: 1;
+}
+
+#cont-img .overlay-sec .coutainer,
+#cont-img .overlay-sec .row
+{
+    height: 100%;
+
+} 
+
+
+.text-session{
+
+  font-family: text-session;
+  font-size: 50px;
+}
+
+#proyectos .card{
+
+    border: none;
+
+
+}
+
+  .text-galery{
+
+    font-family: main-galery;
+   
+  }
+

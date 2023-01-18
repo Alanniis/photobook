@@ -130,7 +130,7 @@
     width:100%;
     }
     
-    @media (hover: hover) {
+    
     #cont-img:hover img {
         -webkit-transform:scale(1.25);
         -moz-transform:scale(1.25);
@@ -141,7 +141,6 @@
         
         }
     
-    }
 
 
 

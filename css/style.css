@@ -21,16 +21,23 @@
     font-family: main-galery;
     src: url(romic-light-1.otf);
 }
+
+@font-face{
+    font-family: text-brader;
+    src: url(Braders\ 400.otf);
+}
 /*INDEX*/
 
 #acerca img{
-    max-width: 65%;
-    max-height: 65%;
+    max-width: 50%;
+    max-height: 55%;
     border-radius: 50%;
+    
 }
 #acerca{
     /*background-color: #151629;*/
     color: black;
+    
 }
 .texto-alineado{
     display:flex;
@@ -52,6 +59,10 @@
 }
 #footer h5,h6{
     color: white;
+}
+
+#main{
+    padding-top: 72px;
 }
 
 #main .carousel-inner img{
@@ -182,4 +193,15 @@
     font-family: main-galery;
    
   }
+
+.text-nav{
+
+    font-family: text-nav;
+}
+
+.text-brader{
+
+    font-family: text-brader;
+    font-size:25px;
+}
 

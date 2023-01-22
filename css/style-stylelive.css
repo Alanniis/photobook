@@ -1,0 +1,30 @@
+#pad{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+button{
+    border: none;
+
+}
+
+button img{
+   max-width: 100%;
+   max-height: 70vh ;
+}
+
+button{
+    background: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#cont-center{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}

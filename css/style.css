@@ -37,6 +37,7 @@
 #acerca{
     /*background-color: #151629;*/
     color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 .texto-alineado{
@@ -46,9 +47,10 @@
 }
 
 #footer{
-    background: linear-gradient(90deg, #04141b, #111e25 25%, #0b151a);
+    background-color:#1B1C20;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-}
+} 
 
 #footer a{
     color: white;
@@ -183,9 +185,15 @@
 
 #proyectos .card{
 
+     
     border: none;
 
 
+}
+
+#proyectos{
+
+    padding-top: 70px;
 }
 
   .text-galery{
@@ -205,3 +213,21 @@
     font-size:25px;
 }
 
+#servicios{
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#servicios h2{
+
+    padding-bottom: 50px;
+}
+
+#servicios p{
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}

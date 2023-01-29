@@ -7,16 +7,15 @@
 
 button{
     border: none;
-
+     background: none;
 }
+
+
 
 button img{
    max-width: 100%;
    max-height: 70vh ;
-}
-
-button{
-    background: none;
+   border-radius: 5px;
 }
 
 a{

@@ -30,3 +30,22 @@ a{
   align-items: center;
   justify-content: center;
 }
+
+#Carrusel img{
+
+   max-width: 100%;
+   max-height: 70vh;
+   object-fit: cover;
+   
+}
+
+#inicio{
+    padding-top: 100px;
+}
+
+#inicio img{
+    max-width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+}
+

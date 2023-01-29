@@ -1,5 +1,15 @@
 document.oncontextmenu = function(){return false}
 
+const btnNav = document.querySelector('.navbar-toggler');
+const navBar = document.querySelector('#navbarSupportedContent');
+
+
+btnNav.addEventListener('click',showMenu);
+
+function showMenu(){
+    navBar.classList.toggle('inactive');
+    
+}
 
 function cambiarElemento(){
     document.getElementById("Adal").style.display = "none";

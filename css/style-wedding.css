@@ -1,3 +1,9 @@
+@font-face{
+    font-family: text-session;
+    src: url(amsterdam-four.ttf);
+    
+}
+
 #pad{
     text-align: center;
     padding-top: 100px;
@@ -31,21 +37,71 @@ a{
   justify-content: center;
 }
 
-#Carrusel img{
+#carrusel img{
 
    max-width: 100%;
-   max-height: 70vh;
+   
    object-fit: cover;
+   filter: grayscale(60%);
    
 }
 
-#inicio{
+#fernandoPaloma, #inicio{
     padding-top: 100px;
+    margin: auto;
 }
 
+#fernandoPaloma img,
 #inicio img{
     max-width: 100%;
-    max-height: 70vh;
     object-fit: cover;
 }
 
+#gustavoFernanda{ 
+    padding-top: 100px;
+    margin: auto;
+}
+
+#gustavoFernanda img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.overlay-sec{
+
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; /* TEXTO*/
+    z-index: 1;
+}
+
+.overlay-sec .coutainer,
+.overlay-sec .row
+{
+    height: 100%;
+
+} 
+.overlay-sec h1{
+    top: 25%;
+}
+
+.text-wedding{
+
+    font-family: text-session;
+  }
+
+#fernandoPaloma h1,
+#gustavoFernanda h1,
+#inicio h1{
+
+    padding-bottom: 20px;
+}
+
+#gustavoFernanda, #inicio, #fernandoPaloma{
+
+    padding-bottom: 25px;
+}

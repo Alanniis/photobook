@@ -33,3 +33,20 @@ function mostrarIrwin(){
             document.getElementById("Ramses").style.display = "block";
             document.getElementById("Irwin").style.display = "none";
         }
+
+//CODIGO BODA
+
+  const fernandoPaloma = document.querySelector("#fernandoPalomaSelect");
+  const gustavoFernanda = document.querySelector('#gustavoFernandaSelect');
+  const inicio = document.querySelector('#inicio');
+
+  fernandoPaloma.addEventListener('click',mostrarFernandoPaloma);
+
+
+  function mostrarFernandoPaloma(){
+  console.log('Hola');
+    
+    
+  }
+
+ 

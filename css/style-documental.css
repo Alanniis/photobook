@@ -1,0 +1,9 @@
+#doc {
+    padding-top: 110px;
+}
+
+#doc img{
+    max-width: 100%;
+    object-fit: cover;
+}
+

@@ -26,13 +26,24 @@
     font-family: text-brader;
     src: url(Braders\ 400.otf);
 }
+
+@font-face{
+    font-family: breviel;
+    src: url(Breviel\ Amore\ 400.ttf);
+}
+
+@font-face{
+    font-family: carlgine;
+    src: url(Carlgine\ Semi\ Bold\ Italic\ 600.ttf);
+}
 /*INDEX*/
 
 #acerca img{
-    max-width: 50%;
-    max-height: 55%;
-    border-radius: 50%;
-    
+     width: 300px;
+     border-radius: 25px;
+     object-fit: cover;
+     
+ 
 }
 #acerca{
     /*background-color: #151629;*/
@@ -71,7 +82,7 @@
    max-width: 100%;
     max-height: 75vh;
     object-fit: cover;
-    filter: grayscale(60%);
+    /* filter: grayscale(60%); */
 
 }
 
@@ -122,6 +133,10 @@
 .letra-nombre{
     font-family: logo-pino;
     font-size:x-large;
+}
+.letra-amsterdam{
+    font-family: logo-pino;
+   
 }
 .letra-peque{
     font-family: Arial, Helvetica, sans-serif;
@@ -212,6 +227,14 @@
 
     font-family: text-brader;
     font-size:25px;
+}
+
+.text-breviel{
+    font-family: breviel;
+}
+.text-carlgine{
+    font-family: carlgine;
+    font-size: 20px;
 }
 
 #servicios{

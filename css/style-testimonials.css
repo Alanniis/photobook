@@ -1,0 +1,26 @@
+body{
+    background-color: whitesmoke;
+}
+#testimonials{
+    padding-top: 120px;
+    
+}
+#testimonials img{
+
+    width: 100%;
+    max-width: 35vh;
+    border-radius: 35px;
+    object-fit: cover;
+
+}
+#card{
+    border-radius: 25px;
+    background-color: white;
+    
+    
+}
+
+/* .texto{
+    color: rgb(41, 128, 185);
+}
+ */
